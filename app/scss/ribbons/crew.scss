@@ -1,0 +1,55 @@
+#Crew {
+    background-image: url(/assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#Crew .container {padding: 340px 20px 0;}
+
+#Crew .tab {display: flex; margin-top: -60px;}
+#Crew .tab .tab_left_container {width: 55%;}
+#Crew .tab .tab_container {width: 45%;}
+
+#Crew .tab span:first-child {margin: 0 !important;}
+#Crew .tab span {
+    width: 18px;
+    height: auto;
+    background-color: #363841;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 9px 0;
+    margin-left: 15px;
+}
+  
+#Crew .tab span.active {background-color: $color-white;}
+#Crew .tab span:hover {background-color: $color-white;}
+#Crew .tabcontent {display: none;}
+
+#Crew .crew_container {display: flex; align-items: center;}
+
+#Crew .crew_image {width: 45%; text-align: center;}
+#Crew .crew_content {width: 65%;}
+
+.crew_subheading {
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 32px;
+    color: #8f9195;
+    line-height: 37px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.crew_content h2 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+#Crew .planet_info {display: flex;}
+#Crew .plant_distance {margin-right: 80px;}

@@ -1,0 +1,41 @@
+#Destination {
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#Destination .container {padding: 340px 20px 80px;}
+
+#Destination .destination_sub-container {max-width: 90%; margin: auto;}
+
+#Destination .tab {display: flex;  margin: 80px 0 52px;}
+#Destination .tab .tab_left_container {width: 55%;}
+#Destination .tab .tab_container {width: 45%;}
+
+#Destination .tab span:first-child {margin: 0 !important;}
+#Destination .tab span {
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: $color-white;
+    cursor: pointer;
+    padding: 12px 0;
+    margin-left: 35px;
+}
+  
+#Destination .tab span:hover {border-bottom: 3px solid #8a8b90;}
+#Destination .tab span.active {border-bottom: 3px solid $color-white;}
+#Destination .tabcontent {display: none;}
+
+#Destination .planet_container {display: flex;}
+
+#Destination .planet_image {width: 55%;}
+#Destination .planet_content {width: 45%;}
+#Destination .planet_image img {width: 100%; max-width: 500px; margin-top: -40px;}
+
+#Destination .planet_info {display: flex;}
+#Destination .plant_distance {margin-right: 80px;}

@@ -1,0 +1,43 @@
+#Home {
+    background-image: url(/assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#Home .container {
+    display: flex;
+    align-items: end;
+    height: 100%;
+    padding-bottom: 150px;
+}
+
+#Home .left_container{
+    width: 70%;
+}
+
+#Home .right_container {
+    width: 30%;
+}
+
+#Home .left_container h1 {
+    font-weight: 400;
+    font-size: 150px;
+    margin: 25px 0;
+}
+
+#explore_circle {text-align: center;}
+
+#Home #explore_circle span a {
+    font-family: Bellefair,serif;
+    color: $color-black;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    background-color: $color-white;
+    border-radius: 50%;
+    padding: 120px 64px;
+    display: inline-block;
+}

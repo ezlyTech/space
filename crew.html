@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+    <script type="text/javascript" src="/app/js/script.js"></script>
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Barlow:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Bellefair&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- CREW SECTION -->
+    <section id="Crew" class="page_section">
+        <div class="container">
+            <span class="subheading"><span class="section_number">02</span> Meet your Crew</span>
+
+            <div id="Commander" class="tabcontent" style="display: block;">
+                <div class="crew_container">
+                    <div class="crew_content">
+                        <span class="crew_subheading">Commander</span>
+                        <h2>Douglas Hurley</h2>
+                        <p class="width_description">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+                    </div>
+                    <div class="crew_image">
+                        <img src="/assets/crew/image-douglas-hurley.png" alt="Commander" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="MissionSpecialist" class="tabcontent">
+                <div class="crew_container">
+                    <div class="crew_content">
+                        <span class="crew_subheading">Mission Specialist</span>
+                        <h2>Mark Shuttleworth</h2>
+                        <p class="width_description">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
+                    </div>
+                    <div class="crew_image">
+                        <img src="/assets/crew/image-mark-shuttleworth.png" alt="Commander" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="Pilot" class="tabcontent">
+                <div class="crew_container">
+                    <div class="crew_content">
+                        <span class="crew_subheading">Pilot</span>
+                        <h2>Victor Glover</h2>
+                        <p class="width_description">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.</p>
+                    </div>
+                    <div class="crew_image">
+                        <img src="/assets/crew/image-victor-glover.png" alt="Commander" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="FlightEngineer" class="tabcontent">
+                <div class="crew_container">
+                    <div class="crew_content">
+                        <span class="crew_subheading">Flight Engineer</span>
+                        <h2>Anousheh Ansari</h2>
+                        <p class="width_description">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>
+                    </div>
+                    <div class="crew_image">
+                        <img src="/assets/crew/image-anousheh-ansari.png" alt="Commander" />
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="tab">
+                <div class="tab_container">
+                    <span class="tablinks active" onclick="spacePlanet(event, 'Commander')"></span>
+                    <span class="tablinks" onclick="spacePlanet(event, 'MissionSpecialist')"></span>
+                    <span class="tablinks" onclick="spacePlanet(event, 'Pilot')"></span>
+                    <span class="tablinks" onclick="spacePlanet(event, 'FlightEngineer')"></span>
+                </div>
+                <div class="tab_left_container"></div>
+            </div>
+
+            
+        </div>
+    </section>
+
+</body>
+</html>

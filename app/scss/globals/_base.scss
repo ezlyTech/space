@@ -2,6 +2,12 @@
  * BLOCKS
  */
 
+ * {box-sizing: border-box;}
+
+ html {
+    scroll-behavior: smooth;
+  }
+
 .section {
     width: 100%;
     padding-top: 80px;
@@ -9,10 +15,9 @@
 }
 
 .container {
-    max-width: 1050px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 40px 20px;
 }
 
 body {
@@ -26,6 +31,7 @@ h1 {
     font-size: 150px;
     line-height: 172px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h2 {
@@ -35,6 +41,7 @@ h2 {
     font-size: 100px;
     line-height: 115px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h3 {
@@ -44,6 +51,7 @@ h3 {
     font-size: 56px;
     line-height: 64px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h4 {
@@ -53,6 +61,7 @@ h4 {
     font-size: 32px;
     line-height: 37px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h5 {
@@ -71,6 +80,7 @@ h5 {
     font-size: 28px;
     line-height: 32px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .subheading__2 {
@@ -81,6 +91,7 @@ h5 {
     line-height: 17px;
     letter-spacing: 2.3625px;
     text-transform: uppercase;
+    margin: 0 0 20px;
 }
 
 .nav-text {
@@ -90,6 +101,7 @@ h5 {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
+    margin: 0;
 }
 
 p {
@@ -100,3 +112,60 @@ p {
     font-size: 18px;
     line-height: 32px;
 }
+
+a {
+    text-decoration: none;
+}
+
+.width_description {max-width: 460px;}
+
+.thin_divider {
+    width: 100%;
+    height: 1px;
+    background-color: #383B4B;
+    margin: 50px 0 30px;
+}
+
+.subheading{
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 4.725px;
+    color: $color-white;
+}
+
+.section_number {
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    margin-right: 25px;
+    color: #383B4B;;
+}
+
+.page_section {
+    height: 100vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $color-black;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

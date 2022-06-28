@@ -1,2 +1,2 @@
-
+function spacePlanet(e,t){var a,l,s;for(l=document.getElementsByClassName("tabcontent"),a=0;a<l.length;a++)l[a].style.display="none";for(s=document.getElementsByClassName("tablinks"),a=0;a<s.length;a++)s[a].className=s[a].className.replace(" active","");document.getElementById(t).style.display="block",e.currentTarget.className+=" active"}
 //# sourceMappingURL=script.js.map
