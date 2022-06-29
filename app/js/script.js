@@ -11,3 +11,12 @@ function spacePlanet(evt, planetName) {
     document.getElementById(planetName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+
+// Header
+$(document).ready(function() {
+
+  $(".header__hamburger").on('click', function() {
+      $('header').toggleClass('openmenu');
+  })
+}) 
