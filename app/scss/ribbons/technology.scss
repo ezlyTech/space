@@ -1,0 +1,41 @@
+#Technology {
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#Technology .container {padding: 200px 20px 80px;}
+
+#Technology .destination_sub-container {max-width: 90%; margin: auto;}
+
+#Technology .tab {display: flex;  margin: 80px 0 52px;}
+#Technology .tab .tab_left_container {width: 55%;}
+#Technology .tab .tab_container {width: 45%;}
+
+#Technology .tab span:first-child {margin: 0 !important;}
+#Technology .tab span {
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: $color-white;
+    cursor: pointer;
+    padding: 12px 0;
+    margin-left: 35px;
+}
+  
+#Technology .tab span:hover {border-bottom: 3px solid #8a8b90;}
+#Technology .tab span.active {border-bottom: 3px solid $color-white;}
+#Technology .tabcontent {display: none;}
+
+#Technology .planet_container {display: flex;}
+
+#Technology .planet_image {width: 55%;}
+#Technology .planet_content {width: 45%;}
+#Technology .planet_image img {width: 100%; max-width: 500px; margin-top: -40px;}
+
+#Technology .planet_info {display: flex;}
+#Technology .plant_distance {margin-right: 80px;}
