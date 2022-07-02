@@ -117,7 +117,7 @@ a {
     text-decoration: none;
 }
 
-.width_description {max-width: 460px;}
+.width_description p {max-width: 460px;}
 
 .thin_divider {
     width: 100%;
@@ -169,3 +169,10 @@ a {
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+  @media only screen and (max-width: 1024px) {
+    .page_section {height: auto !important;}
+
+    .width_description {display: flex; justify-content: center;}
+    .width_description p {max-width: 650px; margin: 0;}
+}

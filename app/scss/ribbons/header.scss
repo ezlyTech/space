@@ -25,6 +25,7 @@ header {
 
             .header__logo {
                 margin-left: 55px;
+                margin-right: 20px;
             }
 
             .header__links {
@@ -84,7 +85,10 @@ header {
     }
 }
 
-
+@media only screen and (max-width: 1024px) {
+    header .header__wrapper .header__container::after {content: none;}
+    header .header__wrapper .header__container .header__links .links__item span {display: none;}
+}
 
 @media only screen and (max-width: 768px) {
     header {
@@ -99,7 +103,7 @@ header {
                 }
     
                 .header__logo {
-                    margin-left: 0;
+                    margin: 0;
                 }
     
                 .header__links {

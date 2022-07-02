@@ -33,9 +33,40 @@
 
 #Destination .planet_container {display: flex;}
 
-#Destination .planet_image {width: 55%;}
+#Destination .planet_image {width: 55%; padding-right: 50px;}
 #Destination .planet_content {width: 45%;}
 #Destination .planet_image img {width: 100%; max-width: 500px; margin-top: -40px;}
 
 #Destination .planet_info {display: flex;}
 #Destination .plant_distance {margin-right: 80px;}
+
+@media only screen and (max-width: 1024px) {
+    #Destination {background-image: url(/assets/destination/background-destination-tablet.jpg);}
+
+    #Destination .tab {margin: 80px 0;}
+    #Destination .tab .tab_left_container {display: none;}
+    #Destination .tab .tab_container {width: 100%; text-align: center;}
+
+    #Destination .planet_container {display: block; text-align: center;}
+
+    #Destination .planet_image,
+    #Destination .planet_content {width: 100%; padding: 0;}
+
+    #Destination .planet_image img {margin: 0 0 40px;}
+
+    #Destination .planet_info {justify-content: space-evenly;}
+    #Destination .plant_distance, 
+    #Destination .plant_travel {margin: 0 20px;}
+}
+
+@media only screen and (max-width: 500px) {
+    #Destination .planet_content h2 {font-size: 56px;}
+
+    #Destination .planet_info {display: block;}
+    #Destination .plant_distance {margin: 40px 20px;}
+}
+
+@media only screen and (max-width: 375px) {
+    #Destination .tab span:first-child {margin: 0 0 20px !important;}
+    #Destination .tab span {display: block; margin: 0 0 20px; border-bottom: 3px solid transparent;}
+}
