@@ -1,5 +1,5 @@
 #Technology {
-    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-image: url(/assets/technology/background-technology-desktop.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -9,33 +9,51 @@
 
 #Technology .destination_sub-container {max-width: 90%; margin: auto;}
 
-#Technology .tab {display: flex;  margin: 80px 0 52px;}
-#Technology .tab .tab_left_container {width: 55%;}
-#Technology .tab .tab_container {width: 45%;}
+#Technology .tab {display: flex;   margin: 80px 0 52px; width: 12%;}
+#Technology .tab span {display: block;}
 
-#Technology .tab span:first-child {margin: 0 !important;}
 #Technology .tab span {
+    color: #fff;
+    cursor: pointer;
+    font-family: Bellefair;
+    font-size: 32px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    border: 1px solid #45464f;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 32px;  
+}
+  
+#Technology .tab span:hover,
+#Technology .tab span.active {
+    background-color: white;
+    color: #0B0D17;
+}
+#Technology .tabcontent {display: none; width: 100%;}
+
+#Technology .technology_sub-container,
+#Technology .technology_container {display: flex; align-items: center; margin-top: 30px;}
+
+#Technology .technology_image {width: 44%;}
+#Technology .technology_content {width: 60%;}
+
+#Technology .technology_content span {
     font-family: 'Barlow Condensed';
     font-weight: 400;
     font-size: 16px;
-    text-transform: uppercase;
     line-height: 19px;
     letter-spacing: 2.7px;
     color: $color-white;
-    cursor: pointer;
-    padding: 12px 0;
-    margin-left: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: block;
 }
-  
-#Technology .tab span:hover {border-bottom: 3px solid #8a8b90;}
-#Technology .tab span.active {border-bottom: 3px solid $color-white;}
-#Technology .tabcontent {display: none;}
 
-#Technology .planet_container {display: flex;}
-
-#Technology .planet_image {width: 55%;}
-#Technology .planet_content {width: 45%;}
-#Technology .planet_image img {width: 100%; max-width: 500px; margin-top: -40px;}
-
-#Technology .planet_info {display: flex;}
-#Technology .plant_distance {margin-right: 80px;}
+#Technology .technology_content h2 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;}
