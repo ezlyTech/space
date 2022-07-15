@@ -1,5 +1,5 @@
 #Crew {
-    background-image: url(/assets/crew/background-crew-desktop.jpg);
+    background-image: url(./../../../assets/crew/background-crew-desktop.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,6 +20,7 @@
     border-radius: 50%;
     padding: 9px 0;
     margin-left: 15px;
+    cursor: pointer;
 }
   
 #Crew .tab span.active {background-color: $color-white;}
@@ -28,7 +29,17 @@
 
 #Crew .crew_container {display: flex; align-items: center;}
 
-#Crew .crew_image {width: 45%; text-align: center;}
+#Crew .crew_image {
+    width: 45%; 
+    text-align: center;
+    height: 715px;
+
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
 #Crew .crew_content {width: 65%;}
 
 .crew_subheading {
@@ -55,7 +66,7 @@
 #Crew .plant_distance {margin-right: 80px;}
 
 @media only screen and (max-width: 1024px) {
-    #Crew {background-image: url(/assets/crew/background-crew-tablet.jpg);}
+    #Crew {background-image: url(./../../../assets/crew/background-crew-tablet.jpg);}
 
     #Crew .tab .tab_container {width: 100%; text-align: center;}
     #Crew .tab .tab_left_container {display: none;}
@@ -76,4 +87,7 @@
 @media only screen and (max-width: 500px) {
     #Crew .crew_subheading {font-size: 16px;}
     #Crew .crew_content h2 {font-size: 34px; line-height: 34px;}
+    #Crew .crew_image img {width: 100%; max-width: 100%; object-fit: contain;}
+
+    #Crew .tab {margin: 10px 0 100px 0;}
 }

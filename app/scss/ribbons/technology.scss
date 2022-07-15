@@ -1,5 +1,5 @@
 #Technology {
-    background-image: url(/assets/technology/background-technology-desktop.jpg);
+    background-image: url(./../../../assets/technology/background-technology-desktop.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@
 #Technology .technology_image_tablet {display: none;}
 
 @media only screen and (max-width: 1024px) {
-    #Technology {background-image: url(/assets/technology/background-technology-tablet.jpg);}
+    #Technology {background-image: url(./../../../assets/technology/background-technology-tablet.jpg);}
 
     #Technology .container {padding: 200px 0 80px}
 

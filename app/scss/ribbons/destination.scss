@@ -1,5 +1,5 @@
 #Destination {
-    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-image: url(./../../../assets/destination/background-destination-desktop.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 #Destination .plant_distance {margin-right: 80px;}
 
 @media only screen and (max-width: 1024px) {
-    #Destination {background-image: url(/assets/destination/background-destination-tablet.jpg);}
+    #Destination {background-image: url(./../../../assets/destination/background-destination-tablet.jpg);}
 
     #Destination .tab {margin: 80px 0;}
     #Destination .tab .tab_left_container {display: none;}

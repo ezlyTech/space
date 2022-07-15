@@ -41,14 +41,14 @@
         <div class="container">
             <div class="left_container">
                 <span class="subheading">So, you want to travel to</span>
-                <h1>Space</h1>
+                <h1 id="spaceMain">Space</h1>
                 <div class="width_description">
                     <p>Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
                 </div>
             </div>
             <div class="right_container">
                 <div id="explore_circle">
-                    <span><a href="/destination.html">Explore</a></span>
+                    <span><a href="./destination.html">Explore</a></span>
                 </div>
             </div>
         </div>
@@ -57,5 +57,14 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./app/js/script.js"></script>
+    <script src="https://unpkg.com/typeit@8.6.6/dist/index.umd.js"></script>
+
+    <script>
+        new TypeIt("#spaceMain", {
+        speed: 200,
+        waitUntilVisible: true,
+        loop: true,
+        }).go();
+    </script>
 </body>
 </html>

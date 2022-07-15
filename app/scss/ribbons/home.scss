@@ -1,5 +1,5 @@
 #Home {
-    background-image: url(/assets/home/background-home-desktop.jpg);
+    background-image: url(./../../../assets/home/background-home-desktop.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -35,12 +35,18 @@
     border-radius: 50%;
     padding: 120px 64px;
     display: inline-block;
+    position: relative;
+
+    &:hover {
+        box-shadow: 0px 4px 18px rgba(170, 170, 170, 0.85);
+        transition: .3s;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
 
     #Home {
-        background-image: url(/assets/home/background-home-tablet.jpg);
+        background-image: url(./../../../assets/home/background-home-tablet.jpg);
         background-position: center center;
         background-repeat: no-repeat;
     }
@@ -54,4 +60,11 @@
     #Home .right_container {width: 100%; text-align: center;}
 
     #Home #explore_circle {text-align: center; margin: 130px 0 80px;}
+}
+
+@media only screen and (max-width: 500px) {
+
+    #Home .left_container h1 {
+        font-size: 100px;
+    }
 }
